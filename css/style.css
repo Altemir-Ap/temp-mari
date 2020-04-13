@@ -1,0 +1,227 @@
+body,
+ul,
+li,
+p {
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto, sans-serif;
+}
+
+html {
+    min-height: 100%;
+}
+
+.menu li {
+    list-style: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #1F1F24;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+h5 {
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 40px;
+    font-style: normal;
+}
+
+h2 {
+    color: #17D3DB;
+    font-size: 40px;
+    font-style: bold;
+}
+
+h3 {
+    color: whitesmoke;
+    font-size: 25px;
+    font-style: bold;
+}
+
+.active {
+    color: #17D3DB;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 5px;
+}
+
+.menu li a {
+    display: block;
+    padding: 5px;
+}
+
+.footer {
+    flex-shrink: 0;
+    padding: 20px;
+    text-align: center;
+    color: #4e4e54;
+    padding-top: 30px;
+}
+
+.container {
+    flex: 1 0 auto;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.container-skills {
+    flex: 1 0 auto;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+.container-work {
+    flex: 1 0 auto;
+    flex-wrap: wrap;
+    max-width: 800px;
+}
+
+.container-skills>div {
+    margin-left: 23px;
+    margin-right: 23px;
+}
+
+.container-work>div {
+    margin: 20px 0px 0px 60px;
+}
+
+.flex {
+    display: flex;
+}
+
+.myself {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.item {
+    flex: 1 1 200px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 450px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.linkedin {
+    text-align: center;
+    color: whitesmoke;
+    bottom: 0;
+}
+
+span {
+    color: whitesmoke;
+}
+
+.flex-end {
+    align-self: flex-end;
+    color: whitesmoke;
+}
+
+.flex-start {
+    align-self: flex-start;
+    color: whitesmoke;
+}
+
+.about h1 {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.about {
+    margin-bottom: 65px;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.basis-auto-grow-0 {
+    flex: 0 1 auto;
+}
+
+.UX {
+    margin-bottom: 70px;
+}
+
+@media only screen and (max-width: 725px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .myself {
+        margin: 0px;
+    }
+    h1,
+    h2 {
+        text-align: center;
+    }
+    .basis-auto-grow-0 {
+        flex: 0 1 auto;
+    }
+    .about {
+        margin-top: 20px;
+        padding: 10px;
+        margin-bottom: 0px;
+    }
+    .about h1 {
+        text-align: center;
+    }
+    .linkedin {
+        margin-top: 20px;
+    }
+    .phone {
+        display: none;
+    }
+    .UX {
+        margin-top: -70px;
+    }
+    .title {
+        text-align: left;
+    }
+    .container-work>div {
+        margin: 15px;
+        padding: 15px;
+    }
+}
